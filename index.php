@@ -56,6 +56,8 @@
 				<div id="examples" class="title">examples</div>
 				<p>
 					Click on the text boxes to see examples of the control with the settings shown.
+					<br/>
+					For the examples that provide lookup, you can accept the selected word by pressing the <i>TAB</i> key.
 				</p>
 
 				<!-- BEGIN Example #1 -->
