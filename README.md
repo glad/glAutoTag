@@ -38,7 +38,7 @@ Finally bind the plugin to the input textbox and set any options you want:
         {
             doLookup("default", tag, resultList);
         }
-    }
+    });
 
 
 License
