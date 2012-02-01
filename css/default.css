@@ -1,0 +1,94 @@
+/*
+	glAutoTag default style
+
+	http://code.gautamlad.com/glAutoTag/
+	https://github.com/glad/glAutoTag/
+*/
+
+/* Container that surrounds input box, tags list and results list */
+.glat-default-box
+{
+	float:left;
+	display:block;
+	width:100%;
+}
+
+/* Container that surrounds the textbox */
+.glat-default-input-box
+{
+	width:100%; float:left;
+}
+
+/* Container that surrounds the tag list */
+.glat-default-tags-box
+{
+	float:left;
+	margin-bottom:5px;
+}
+
+/* The tags list */
+.glat-default-tags-box ul
+{
+	list-style-type:none;
+	float:left;
+}
+
+/* The tag items */
+.glat-default-tags-box li
+{
+	font-family:"trebuchet ms";
+	font-size:0.8em;
+	line-height:0.8em;
+	float:left;
+	padding:5px 8px 5px 8px;
+	margin:5px 5px 0 0;
+	background-color:#888;
+	color:#fff;
+	-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;
+}
+
+/* Container that surrounds the result list */
+.glat-default-result-box
+{
+	position:absolute;
+	margin:0;padding:0;border:0;
+	border:solid 1px #111;
+	z-index:10000;
+	width:1px;
+	background-color:#fff;
+	overflow:auto;
+	display:none;
+}
+
+/* The result list */
+.glat-default-result-box ul
+{
+	width:100%;
+	margin:0;border:0;padding:0;
+}
+
+/* The result items */
+.glat-default-result-box li
+{
+	display:block;
+	padding:5px;
+	margin-bottom:1px;
+	line-height:1em;
+	font-size:0.8em;
+	font-family:"trebuchet ms";
+	background-color:#fff;
+	color:#000;
+}
+
+/* Currently selected result item */
+.glat-default-result-box li.active
+{
+	background-color:#ddd;
+}
+
+/* Current result item under the mouse */
+.glat-default-result-box li:hover
+{
+	background-color:#eee;
+	cursor:pointer;
+}

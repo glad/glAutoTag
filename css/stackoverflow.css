@@ -1,0 +1,96 @@
+/*
+	glAutoTag style inspired by the StackOverflow auto-complete tags list
+
+	http://code.gautamlad.com/glAutoTag/
+	https://github.com/glad/glAutoTag/
+	http://stackoverflow.com/questions/ask
+*/
+
+/* Container that surrounds input box, tags list and results list */
+.glat-stackoverflow-box
+{
+	float:left;
+	display:block;
+	width:100%;
+}
+
+/* Container that surrounds the textbox */
+.glat-stackoverflow-input-box
+{
+	width:100%; float:left;
+}
+
+/* Container that surrounds the tag list */
+.glat-stackoverflow-tags-box
+{
+	float:left;
+	margin-bottom:5px;
+}
+
+/* The tags list */
+.glat-stackoverflow-tags-box ul
+{
+	list-style-type:none;
+	float:left;
+}
+
+/* The tag items */
+.glat-stackoverflow-tags-box li
+{
+	font-family:"trebuchet ms";
+	font-size:0.8em;
+	line-height:0.8em;
+	float:left;
+	padding:5px 8px 5px 8px;
+	margin:5px 5px 0 0;
+	background-color:#e0eaf1;
+	color:#5d6db0;
+	border-right:solid 1px #7f9fb6;
+	border-bottom:solid 1px #3e6d8e;
+}
+
+/* Container that surrounds the result list */
+.glat-stackoverflow-result-box
+{
+	position:absolute;
+	margin:0;padding:0;border:0;
+	border:solid 1px #111;
+	z-index:10000;
+	width:1px;
+	background-color:#fff;
+	overflow:auto;
+	display:none;
+}
+
+/* The result list */
+.glat-stackoverflow-result-box ul
+{
+	width:100%;
+	margin:0;border:0;padding:0;
+}
+
+/* The result items */
+.glat-stackoverflow-result-box li
+{
+	display:block;
+	padding:5px;
+	margin-bottom:1px;
+	line-height:1em;
+	font-size:0.8em;
+	font-family:"trebuchet ms";
+	background-color:#fff;
+	color:#000;
+}
+
+/* Currently selected result item */
+.glat-stackoverflow-result-box li.active
+{
+	background-color:#ff9900;
+}
+
+/* Current result item under the mouse */
+.glat-stackoverflow-result-box li:hover
+{
+	background-color:#ffeec0;
+	cursor:pointer;
+}
